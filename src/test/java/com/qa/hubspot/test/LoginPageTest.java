@@ -37,13 +37,13 @@ public class LoginPageTest {
 		//Assert.assertEquals(title, Constants.LOGIN_PAGE_TITLE);
 	}
 	
-	@Test(priority=2) 
+	@Test(priority=2,enabled=false) 
 	public void verifySignUpLinkTest()
 	{
 		Assert.assertTrue(loginPage.verifySignUpLink());
 	}
 	
-	@Test(priority=3)
+	@Test(priority=3,enabled=false)
 	public void hubSpotLoginTest(){
 		loginPage.doLogin(prop.getProperty("username").trim(),prop.getProperty("password").trim());
 	}

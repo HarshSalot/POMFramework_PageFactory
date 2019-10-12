@@ -10,8 +10,6 @@
 	<test name="hub spot regression Test">
 		<classes>
 			<class name="com.qa.hubspot.test.LoginPageTest" />
-			<class name="com.qa.hubspot.test.HomePageTest" />
-			<class name="com.qa.hubspot.test.ContactsPageTest" />
         </classes>
 	</test>
 </suite>

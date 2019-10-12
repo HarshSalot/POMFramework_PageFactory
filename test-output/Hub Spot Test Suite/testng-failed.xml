@@ -14,9 +14,7 @@
       <class name="com.qa.hubspot.test.LoginPageTest">
         <methods>
           <include name="verifyLoginPageTitleTest"/>
-          <include name="verifySignUpLinkTest"/>
           <include name="setup"/>
-          <include name="hubSpotLoginTest"/>
         </methods>
       </class> <!-- com.qa.hubspot.test.LoginPageTest -->
     </classes>

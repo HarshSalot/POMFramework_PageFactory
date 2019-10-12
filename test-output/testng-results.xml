@@ -1,97 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="3" total="3" passed="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot Test Suite" duration-ms="56538" started-at="2019-06-20T20:04:48Z" finished-at="2019-06-20T20:05:45Z">
+  <suite name="Default suite" duration-ms="15319" started-at="2019-06-22T20:38:11Z" finished-at="2019-06-22T20:38:26Z">
     <groups>
     </groups>
-    <test name="hub spot regression Test" duration-ms="56538" started-at="2019-06-20T20:04:48Z" finished-at="2019-06-20T20:05:45Z">
+    <test name="Default test" duration-ms="15319" started-at="2019-06-22T20:38:11Z" finished-at="2019-06-22T20:38:26Z">
       <class name="com.qa.hubspot.test.LoginPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="setup" is-config="true" duration-ms="19361" started-at="2019-06-20T16:04:48Z" finished-at="2019-06-20T16:05:08Z">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@7b5a12ae]" name="setup" is-config="true" duration-ms="14067" started-at="2019-06-22T16:38:11Z" finished-at="2019-06-22T16:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="verifyLoginPageTitleTest" duration-ms="1468" started-at="2019-06-20T16:05:08Z" finished-at="2019-06-20T16:05:09Z">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;
-	at com.qa.hubspot.listeners.ExtentReportListener.onTestStart(ExtentReportListener.java:70)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.test.LoginPageTest@7b5a12ae]" name="verifyLoginPageTitleTest" duration-ms="13" started-at="2019-06-22T16:38:25Z" finished-at="2019-06-22T16:38:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="setup" is-config="true" duration-ms="15484" started-at="2019-06-20T16:05:10Z" finished-at="2019-06-20T16:05:26Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@7b5a12ae]" name="tearDown" is-config="true" duration-ms="753" started-at="2019-06-22T16:38:25Z" finished-at="2019-06-22T16:38:26Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="verifySignUpLinkTest()[pri:2, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="verifySignUpLinkTest" duration-ms="3" started-at="2019-06-20T16:05:26Z" finished-at="2019-06-20T16:05:26Z">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;
-	at com.qa.hubspot.listeners.ExtentReportListener.onTestStart(ExtentReportListener.java:70)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySignUpLinkTest -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="setup" is-config="true" duration-ms="18092" started-at="2019-06-20T16:05:26Z" finished-at="2019-06-20T16:05:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="hubSpotLoginTest()[pri:3, instance:com.qa.hubspot.test.LoginPageTest@6db66836]" name="hubSpotLoginTest" duration-ms="4" started-at="2019-06-20T16:05:44Z" finished-at="2019-06-20T16:05:44Z">
-          <exception class="java.lang.NoSuchMethodError">
-            <message>
-              <![CDATA[org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NoSuchMethodError: org.testng.ITestNGMethod.getQualifiedName()Ljava/lang/String;
-	at com.qa.hubspot.listeners.ExtentReportListener.onTestStart(ExtentReportListener.java:70)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1702)
-	at org.testng.internal.Invoker.runTestListeners(Invoker.java:1677)
-	at org.testng.internal.Invoker.invokeMethod(Invoker.java:620)
-	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-	at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NoSuchMethodError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- hubSpotLoginTest -->
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hubspot.test.LoginPageTest -->
-    </test> <!-- hub spot regression Test -->
-  </suite> <!-- Hub Spot Test Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
